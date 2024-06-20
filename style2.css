@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navlink{
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.nav{
+    text-align: center;
+}
+
+
+/* card syling */
+
+.card{
+    width: 300px;
+    padding: 15px;
+    background-color: aliceblue;
+    display: inline-block;
+    margin: 0 50px;
+    box-shadow: 6px 6px 9px rgba(255, 0, 8, 9) ;
+}
+
+.card figure, 
+.card figure img{
+    width: 100%;
+}
+
+/* .title h2, .title p{
+    display: inline-block;   
+} */
+
+
+.title{
+    margin: 10px 0;
+}
+
+
+.title p{
+    text-align: right;
+}
+
+
+.title h2{
+    display: inline;
+    font-size: 18px;
+}
+
+.card button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightblue;
+    color: rgb(140, 80, 197);
+}

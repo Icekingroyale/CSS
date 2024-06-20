@@ -1,0 +1,100 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: blue;
+} */
+
+h2,
+p {
+  color: blue;
+}
+
+/* :root { */
+  /* set things like variable, default */
+  /* font-size: 18px;
+
+  --primary-color: blue;
+} */
+
+h2,
+p {
+  color: blue;
+}
+
+/* p{
+    color: blue;
+    DRY - Don't Repeat Yourself
+} */
+
+.card h2,
+.card p {
+  color: red;
+}
+
+.mcard > h2 {
+  color: blue;
+  border: none;
+}
+
+h1 {
+  height: 100px;
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 40px; /*em rem*/
+  /* font-size: 3em; */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; 
+    /* in font family it's best practice to use old fonts */
+
+    text-decoration: underline;
+    text-decoration: none; /* is useful if you want to remove line in your href link */
+    text-align: justify; /* aligns your text just like ms word */
+
+/* color names */
+background-color:  blue;
+/*RGB values; */
+background-color: rgb(220, 250, 0);
+/*hexadecimal values */
+background-color: #769034;
+/* HSL values */
+background-color: hsl(8deg, 87%, 35%);
+
+}
+
+.model div {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  border: 2px solid red;
+}
+
+.model {
+  border: 3px solid black;
+  padding: 20px 0;
+  border-top: 3px;
+  border: purple;
+}
+
+.model div:nth-child(1) {
+  margin-top: 0;
+  margin-right: 200px;
+  margin-bottom: 0px;
+  margin-left: 100px;
+
+  /* margin: 0px 200px 0px 100px;
+    margin: 0 200px  (top & bottom-left & right;
+    margin: 100px; */
+}
+
+.card{
+  display: inline-block;
+  border: 2px solid;
+  width: 200px;
+  margin: 0px 20px;
+}
+
