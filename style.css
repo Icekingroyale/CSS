@@ -11,8 +11,12 @@ p {
 }
 
 /* :root { */
-  /* set things like variable, default */
+  /* set things like variable
+  eg. put a white color and when you want to use the color again,
+  call the VAR. this is particularly important if you want to use or change 
+  the entire colour of a site */
   /* font-size: 18px;
+  
 
   --primary-color: blue;
 } */

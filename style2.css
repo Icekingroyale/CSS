@@ -24,8 +24,8 @@
     padding: 15px;
     background-color: aliceblue;
     display: inline-block;
-    margin: 0 50px;
-    box-shadow: 6px 6px 9px rgba(255, 0, 8, 9) ;
+    margin: 60px 50px;
+    box-shadow: 6px 6px 9px rgba(255, 0, 8, 0.8) ;
 }
 
 .card figure, 
@@ -55,8 +55,37 @@
 
 .card button{
     padding: 10px 30px;
-    border: none;
+    border-color: red;
     border-radius: 5px;
     background-color: lightblue;
     color: rgb(140, 80, 197);
+}
+
+.black{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    
+    box-shadow: 200px 0px black, 400px 9;
+}
+
+.res{
+    border: 3px solid red;
+    height: 300px;
+    width:  100px;
+    max-width: 1000px;
+    min-width: 500px;
+    /* background-color: blue; */
+    background-image: linear-gradient(45deg,
+    rgb(255,0,0)20%
+    );
+}
+
+/* Adding background images */
+
+.card-container{
+    background-image: url('../HTML/assets/images/IMG1.JPG');
+    background-size: contain;
+    background-attachment: fixed;
+    
 }
