@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <!-- internal or embed method -->
+    <style>
+      /* selector{
+  property: value;
+} */
+
+      .middle {
+        color: pink;
+      }
+      #h1 {
+        color: green !important;
+      }
+      li {
+        color: blue;
+        color: green;
+      }
+      .abc {
+        color: black;
+      }
+      #abc1 {
+        color: aqua;
+      }
+      li {
+        color: aqua;
+      }
+      .abc1 {
+        color: purple;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="" class="navlink"> <p>Home</p> </a>
+        <a href="product.html" class="navlink"> <p>Product</p> </a>
+      </nav>
+    </header>
+    <!-- Inline css, internal or embedded css, external css -->
+    <!-- inline css is added to the document using the style attribute -->
+    <h1 style="color: red" id="h1">Hello World!</h1>
+
+    <ul>
+      <li class="middle abc">a</li>
+      <li class="middle abc abc1" id="abc1">b</li>
+      <li class="middle abc">c</li>
+    </ul>
+
+    <section class="container">
+      <div class="card">
+        <img src="" alt="" />
+        <h2>Books</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+          repudiandae expedita quae dicta ipsam eveniet! Inventore, voluptatibus
+          consectetur! Odit velit enim illum atque commodi natus et facilis
+          molestiae at hic.
+        </p>
+        <button>Buy</button>
+      </div>
+      <div class="card mcard">
+        <img src="" alt="" />
+        <h2>Phones</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolore
+          sunt nihil quia cum quod possimus unde quae ducimus magnam corrupti,
+          quis nisi id repudiandae saepe perferendis molestiae dolorum error!
+        </p>
+        <button>Buy</button>
+      </div>
+      <div class="card">
+        <img src="" alt="" />
+        <h2>Cars</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+          totam, doloribus, aperiam id eos iste corrupti voluptatibus voluptas,
+          consectetur tempore est nobis excepturi nesciunt quia ad architecto
+          facere cum quis?
+        </p>
+        <button>Buy</button>
+      </div>
+    </section>
+
+    <div class="model">
+      <div>abc</div>
+      <div>xyz</div>
+    </div>
+  </body>
+</html>
