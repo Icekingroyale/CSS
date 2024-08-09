@@ -1,0 +1,52 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    left: 50%;
+    translate: -50% 200px;
+    rotate: 45deg;
+}
+
+
+.box::before{
+    content: "";
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: red;
+    left: -100px;
+    border-radius: 100%;
+}
+.box::after{
+    content: "";
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: red;
+    top: -100px;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: palegreen;
+    }
+
+.box, .box::before, .box::after{
+    background-color: blue;
+}
+
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-color: orange;
+    }
+
+    .box{
+        rotate: 225deg;
+    }
+
+
+}
